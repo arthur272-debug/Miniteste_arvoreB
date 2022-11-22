@@ -5,6 +5,7 @@ De acordo com os autores Bayer e McCreight, dentre outros, definem a ordem como 
 # 3) Mostre todas as árvores B válidas de ordem d = 1 que possuem as seguintes chaves {1,2,3,4,5}. 
 
 # 4) Explique como encontrar a maior chave armazenada em uma árvore B.
+Para encontrar a maior chave, o primeiro passo é verficar se a maior chave da página raiz possui uma ponteiro para uma outra página, caso tenha, repetir o mesmo passo para a página atual, e assim sucessivamente até que seja encontrado uma chave que possui um ponteiro. Dessa forma, essa chave que não possui um ponteiro, é a maior chave da árvore B.
 
 # 5) Desenhe, passo a passo, uma árvore B de ordem d = 2 inserindo as seguintes chaves na ordem em que estão sendo informadas: 99, 50, 60, 37, 45, 15, 28, 40, 58, 89, 70, 65, 59,48, 49, 53. 
 
