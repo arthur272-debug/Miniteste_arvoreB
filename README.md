@@ -1,5 +1,5 @@
 # 1) Por que o número de filhos, ou grau, de um nó de uma árvore B qualquer não pode ser igual a 1? 
-
+De acordo com os autores Bayer e McCreight, dentre outros, definem a ordem como sendo o número mínimo de chaves que uma página pode conter, mas essa definição pode causar ambiguidades quando se quer armazenar um número máximo ímpar de chaves. Assim, para evitar a ambiguidade, Knuth propôs que a ordem de uma árvore B fosse o número máximo de páginas filhas que toda página poderia conter. Dessa forma, o número máximo de chaves por página ficou estabelecido como a ordem menos um, que também foi usado para as outras partes da árvore B.
 # 2) Para que valores de ordem da árvore da figura abaixo é uma árvore B válida?  
 
 # 3) Mostre todas as árvores B válidas de ordem d = 1 que possuem as seguintes chaves {1,2,3,4,5}. 
