@@ -1,6 +1,6 @@
 # 1) Por que o número de filhos, ou grau, de um nó de uma árvore B qualquer não pode ser igual a 1? 
 
-# 2) Para que valores de ordem d a árvore da figura abaixo é uma árvore B válida?  
+# 2) Para que valores de ordem da árvore da figura abaixo é uma árvore B válida?  
 
 # 3) Mostre todas as árvores B válidas de ordem d = 1 que possuem as seguintes chaves {1,2,3,4,5}. 
 
