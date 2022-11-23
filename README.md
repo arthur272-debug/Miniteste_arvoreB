@@ -52,3 +52,6 @@ Para encontrar a maior chave, o primeiro passo é verficar se a maior chave da p
 ## **6) Sobre a árvore resultante do exercício anterior, ilustre, passo a passo, as seguintes operações:**
 * a) Inserir, também na ordem em que são informadas, as chaves 47, 46, 39, 52, 51, 55 (notar que as inserções são cumulativas).
 * b) Sobre o resultado do passo (a), excluir as chaves 37, 47, 46 e 65, na ordem informada. Notar que as exclusões são cumulativas.
+![](questao6/1.jpeg)
+![](questao6/2.jpeg)
+![](questao6/3.jpeg)
