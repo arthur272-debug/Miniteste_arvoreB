@@ -37,9 +37,9 @@ Desse modo, a ordem que satisfaz todas essas regras para a árvore representada 
 
 Não podemos ter raíz de chave 1, já que não terá dois filhos, pois todos os outros números são maiores que 1 e ficará apenas com um filho direito que terá outros filhos. Com isso, as folhas não ficarão no mesmo nível, quebrando a definição da árvore B. Também não podemos ter raíz de chave 5, pelos mesmos motivos da chave 1, sendo considerado o filho esquerdo da raíz.
 
-As possibilidades estarão na imagem
+As possibilidades estarão na imagem:
 
-
+![ex03](https://user-images.githubusercontent.com/115050272/203624355-aad2e35b-2967-4231-854e-2b016b7fe133.jpeg)
 
 ## **4) Explique como encontrar a maior chave armazenada em uma árvore B.**
 Para encontrar a maior chave, o primeiro passo é verficar se a maior chave da página raiz possui uma ponteiro para uma outra página, caso tenha, repetir o mesmo passo para a página atual, e assim sucessivamente até que seja encontrado uma chave que não possui um ponteiro. Dessa forma, essa chave é a maior chave da árvore B.
