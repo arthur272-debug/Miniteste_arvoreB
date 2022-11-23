@@ -35,6 +35,12 @@ Desse modo, a ordem que satisfaz todas essas regras para a árvore representada 
 
 ## **3) Mostre todas as árvores B válidas de ordem d = 1 que possuem as seguintes chaves {1,2,3,4,5}.**
 
+Não podemos ter raíz de chave 1, já que não terá dois filhos, pois todos os outros números são maiores que 1 e ficará apenas com um filho direito que terá outros filhos. Com isso, as folhas não ficarão no mesmo nível, quebrando a definição da árvore B. Também não podemos ter raíz de chave 5, pelos mesmos motivos da chave 1, sendo considerado o filho esquerdo da raíz.
+
+As possibilidades estarão na imagem
+
+
+
 ## **4) Explique como encontrar a maior chave armazenada em uma árvore B.**
 Para encontrar a maior chave, o primeiro passo é verficar se a maior chave da página raiz possui uma ponteiro para uma outra página, caso tenha, repetir o mesmo passo para a página atual, e assim sucessivamente até que seja encontrado uma chave que não possui um ponteiro. Dessa forma, essa chave é a maior chave da árvore B.
 
