@@ -46,6 +46,8 @@ Para encontrar a maior chave, o primeiro passo é verficar se a maior chave da p
 
 ## **5) Desenhe, passo a passo, uma árvore B de ordem d = 2 inserindo as seguintes chaves na ordem em que estão sendo informadas: 99, 50, 60, 37, 45, 15, 28, 40, 58, 89, 70, 65, 59,48, 49, 53.** 
 ![](questao5/1.jpeg)
+![](questao5/2.jpeg)
+![](questao5/3.jpeg)
 
 ## **6) Sobre a árvore resultante do exercício anterior, ilustre, passo a passo, as seguintes operações:**
 * a) Inserir, também na ordem em que são informadas, as chaves 47, 46, 39, 52, 51, 55 (notar que as inserções são cumulativas).
