@@ -1,0 +1,6 @@
+A ordem deve ser d = 2. Isso pode ser comprovado com as seguintes características de uma árvore B:
+
+-> Cada nó diferente da raiz e folhas tem no mínimo d+1 filhos. Observando a imagem, ambas as páginas (não considerando a raíz) tem no mínimo 2 + 1 (3) filhos.  
+-> Cada nó tem no máximo 2d+1 filhos. 
+
+Se colocassemos um valor superior a 2, deveria ter no mínimo > 4 filhos em cada nó diferente da raíz e folhas. Entretanto, a página a esquerda possui apenas 3 filhos, tornando impossível a ordem ser maior que 2.
